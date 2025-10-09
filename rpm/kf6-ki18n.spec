@@ -33,12 +33,6 @@ Requires:	python3-base
 The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
-%package        doc
-Summary:        Developer Documentation files for %{name}
-BuildArch:      noarch
-%description    doc
-Developer Documentation files for %{name} for use with KDevelop or QtCreator.
-
 %prep
 %autosetup -n %{name}-%{version}/upstream -p1
 
@@ -81,7 +75,3 @@ Developer Documentation files for %{name} for use with KDevelop or QtCreator.
 %{_kf6_libdir}/libKF6I18n.so
 %{_kf6_libdir}/libKF6I18nLocaleData.so
 %{_kf6_libdir}/cmake/KF6I18n/
-%{_qt6_docdir}/*.tags
-
-%files doc
-%{_qt6_docdir}/*.qch
