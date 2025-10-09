@@ -50,6 +50,7 @@ developing applications that use %{name}.
 %doc README.md
 %license LICENSES/*.txt
 %{_kf6_libdir}/libKF6I18n.so.*
+%{_kf6_libdir}/libKF6I18nQml.so.*
 %{_kf6_libdir}/libKF6I18nLocaleData.so.*
 %{_kf6_datadir}/qlogging-categories6/ki18n*
 %{_kf6_qmldir}/org/kde/i18n/localeData/
@@ -73,5 +74,6 @@ developing applications that use %{name}.
 %{_kf6_includedir}/KI18n/
 %{_kf6_includedir}/KI18nLocaleData/
 %{_kf6_libdir}/libKF6I18n.so
+%{_kf6_libdir}/libKF6I18nQml.so
 %{_kf6_libdir}/libKF6I18nLocaleData.so
 %{_kf6_libdir}/cmake/KF6I18n/
